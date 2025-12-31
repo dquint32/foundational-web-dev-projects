@@ -1,306 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Assignments – CIS 3030</title>
-  <style>
-    body {
-      background-color: #0d0d0d;
-      color: #f0a500;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      margin: 0;
-      padding: 20px;
-    }
-
-    .container {
-      max-width: 960px;
-      margin: auto;
-    }
-
-    .box {
-      background-color: #1a1a1a;
-      border: 2px solid #f0a500;
-      border-radius: 10px;
-      padding: 20px;
-      margin-bottom: 20px;
-      box-shadow: 0 0 12px rgba(240, 165, 0, 0.2);
-      transition: transform 0.2s ease;
-    }
-
-    .box:hover {
-      transform: scale(1.01);
-    }
-
-    .header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-
-    .header-left {
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      flex: 1;
-    }
-
-    .course-info h1 {
-      margin: 0 0 10px;
-      font-size: 1.6em;
-      color: #ffffff;
-    }
-
-    .course-info p {
-      margin: 5px 0;
-      color: #f0a500;
-    }
-
-    .logo {
-      width: 100px;
-      height: auto;
-      background-color: #333;
-      padding: 10px;
-      border-radius: 5px;
-    }
-
-    .header-right {
-      text-align: right;
-      flex: 0 0 200px;
-    }
-
-    .profile {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .selfie {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      box-shadow: 0 0 10px #f0a500;
-      margin-bottom: 8px;
-      background-color: #333;
-      object-fit: cover;
-    }
-
-    .student-name {
-      font-weight: bold;
-      font-size: 1.1em;
-      margin-bottom: 4px;
-      color: #ffffff;
-    }
-
-    .email {
-      margin: 0;
-    }
-
-    .email a {
-      color: #ffd700;
-      text-decoration: none;
-    }
-
-    .email a:hover {
-      text-decoration: underline;
-    }
-
-    h2 {
-      color: #f0a500;
-      border-bottom: 1px solid #f0a500;
-      padding-bottom: 5px;
-      margin-top: 0;
-    }
-
-    ul {
-      list-style: none;
-      padding-left: 0;
-    }
-
-    li {
-      margin: 8px 0;
-    }
-
-    a {
-      color: #f0a500;
-      font-weight: bold;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #ffd700;
-    }
-
-    footer {
-      text-align: center;
-    }
-
-    .signature {
-      font-style: italic;
-      color: #ffd700;
-    }
-
-    .citation-section p {
-      margin: 10px 0;
-      line-height: 1.6;
-    }
-
-    @media (max-width: 768px) {
-      .header {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .header-left {
-        flex-direction: column;
-        gap: 10px;
-      }
-
-      .header-right {
-        margin-top: 20px;
-      }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CIS 3030 Business Web Page Development - Assignment Portfolio by David Quintana">
+    <meta name="author" content="David Quintana">
+    <title>Assignments CIS 3030 - David Quintana</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <div class="container">
-    <header class="header box">
-      <div class="header-left">
-        <img src="msudenver_logo.png" alt="MSU Denver Logo" class="logo">
-        <div class="course-info">
-          <h1>Assignments – CIS 3030</h1>
-          <p>Professor Janos Fustos</p>
-          <p>Business Web Page Development – CIS-3030-001</p>
-          <p>Fall 2025 – CRN: 50761</p>
-        </div>
-      </div>
-      <div class="header-right">
-        <div class="profile">
-          <img src="selfie_davidq.jpg" alt="David Quintana" class="selfie">
-          <p class="student-name">David Quintana</p>
-          <p class="email">
-            <a href="mailto:dquint32@msudenver.edu">dquint32@msudenver.edu</a>
-          </p>
-        </div>
-      </div>
-    </header>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header box">
+            <div class="header-left">
+                <img src="msudenver_logo.png" alt="MSU Denver Logo" class="logo">
+                <div class="course-info">
+                    <h1>Assignments CIS 3030</h1>
+                    <p>Professor Janos Fustos</p>
+                    <p>Business Web Page Development CIS-3030-001</p>
+                    <p>Fall 2025 CRN 50761</p>
+                </div>
+            </div>
+            <div class="header-right">
+                <div class="profile">
+                    <img src="selfie_davidq.jpg" alt="David Quintana" class="selfie">
+                    <p class="student-name">David Quintana</p>
+                    <p class="email"><a href="mailto:dquint32@msudenver.edu">dquint32@msudenver.edu</a></p>
+                </div>
+            </div>
+        </header>
 
-    <main>
-      <!-- Tutorials 1–10 -->
-      <section class="box">
-        <h2>Tutorial 1 Files</h2>
-        <ul>
-          <li><a href="tutorial01/tutorial/ct_start.html">Tutorial</a></li>
-          <li><a href="tutorial01/review/mp_index.html">Review</a></li>
-          <li><a href="tutorial01/case/jtc_index.html">Case</a></li>
-        </ul>
-      </section>
+        <!-- Main Content -->
+        <main>
+            <!-- Tutorial 1 -->
+            <section class="box">
+                <h2>Tutorial 1 Files</h2>
+                <ul>
+                    <li><a href="MODULE 2/Tutorial/ct_start.html">Tutorial - Curbside Thai Start</a></li>
+                    <li><a href="MODULE 2/Tutorial/ct_menu.html">Menu - Curbside Thai Menu</a></li>
+                    <li><a href="MODULE 2/Tutorial/ct_reviews.html">Reviews - Curbside Thai Reviews</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 2 Files</h2>
-        <ul>
-          <li><a href="tutorial02/tutorial/tss_home.html">Tutorial</a></li>
-          <li><a href="tutorial02/review/tss_coach.html">Review</a></li>
-          <li><a href="tutorial02/case/cw_class.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 2 -->
+            <section class="box">
+                <h2>Tutorial 2 Files</h2>
+                <ul>
+                    <li><a href="MODULE 2/Tutorial/ct_start.html">Tutorial (Curbside Thai)</a></li>
+                    <li><a href="MODULE 2/Review Assignment 1/mp_index.html">Review (Mobile Panini)</a></li>
+                    <li><a href="MODULE 2/Case Assignment 1/jtc_index.html">Case (JavaJam)</a></li>
+                </ul>
+            </section>
+            
+            <!-- Tutorial 3 -->
+            <section class="box">
+                <h2>Tutorial 3 Files</h2>
+                <ul>
+                    <li><a href="MODULE 3/tutorial/tss_home.html">Tutorial (Tri and Succeed)</a></li>
+                    <li><a href="MODULE 3/review/tss_coach.html">Review (TSS Coach)</a></li>
+                    <li><a href="MODULE 3/case2/cw_class.html">Case (Civil War History)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 3 Files</h2>
-        <ul>
-          <li><a href="tutorial03/tutorial/pc_home.html">Tutorial</a></li>
-          <li><a href="tutorial03/review/pc_specials.html">Review</a></li>
-          <li><a href="tutorial03/case/sp_home.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 4 -->
+            <section class="box">
+                <h2>Tutorial 4 Files</h2>
+                <ul>
+                    <li><a href="MODULE 4/tutorial/pc_home.html">Tutorial (Park City Gazette)</a></li>
+                    <li><a href="MODULE 4/review/pc_specials.html">Review (Petit Cato)</a></li>
+                    <li><a href="MODULE 4/case1/sp_home.html">Case (Save the Prince)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 4 Files</h2>
-        <ul>
-          <li><a href="tutorial04/tutorial/tb_komatsu.html">Tutorial</a></li>
-          <li><a href="tutorial04/review/tb_ferris.html">Review</a></li>
-          <li><a href="tutorial04/case/cf_home.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 5 -->
+            <section class="box">
+                <h2>Tutorial 5 Files</h2>
+                <ul>
+                    <li><a href="#">Tutorial (Pending)</a></li>
+                    <li><a href="#">Review (Pending)</a></li>
+                    <li><a href="#">Case (Pending)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 5 Files</h2>
-        <ul>
-          <li><a href="tutorial05/tutorial/tf_home.html">Tutorial</a></li>
-          <li><a href="tutorial05/review/tf_tips.html">Review</a></li>
-          <li><a href="tutorial05/case/cw_home.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 6 -->
+            <section class="box">
+                <h2>Tutorial 6 Files</h2>
+                <ul>
+                    <li><a href="MODULE 6/tutorial/tb_genta.html">Tutorial (Kumo)</a></li>
+                    <li><a href="MODULE 6/review/tb_kathleen.html">Review (Voter Web)</a></li>
+                    <li><a href="MODULE 6/case2/cf_home.html">Case (CrossFades)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 6 Files</h2>
-        <ul>
-          <li><a href="tutorial06/tutorial/dlr_evenings.html">Tutorial</a></li>
-          <li><a href="tutorial06/review/dlr_mornings.html">Review</a></li>
-          <li><a href="tutorial06/case/mi_pricing.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 7 -->
+            <section class="box">
+                <h2>Tutorial 7 Files</h2>
+                <ul>
+                    <li><a href="MODULE 7/tutorial/tf_home.html">Tutorial (Trusted Friends)</a></li>
+                    <li><a href="MODULE 7/review/tf_tips.html">Review (Trusted Friends Tips)</a></li>
+                    <li><a href="MODULE 7/case2/cw_home.html">Case (Circle W)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 7 Files</h2>
-        <ul>
-          <li><a href="tutorial07/tutorial/rb_survey.html">Tutorial</a></li>
-          <li><a href="tutorial07/review/rb_build.html">Review</a></li>
-          <li><a href="tutorial07/review/rb_customer.html">Review</a></li>
-          <li><a href="tutorial07/case/cg_register.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 8 -->
+            <section class="box">
+                <h2>Tutorial 8 Files</h2>
+                <ul>
+                    <li><a href="MODULE 8/tutorial/dlr_evenings.html">Tutorial (DLR Evenings)</a></li>
+                    <li><a href="MODULE 8/review/dlr_mornings.html">Review (DLR Mornings)</a></li>
+                    <li><a href="MODULE 8/case1/mi_pricing.html">Case (Manner I)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 8 Files</h2>
-        <ul>
-          <li><a href="tutorial08/tutorial/cp_royal.html">Tutorial</a></li>
-          <li><a href="tutorial08/review/cp_astaire.html">Review</a></li>
-          <li><a href="tutorial08/case/paa_game.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 9 -->
+            <section class="box">
+                <h2>Tutorial 9 Files</h2>
+                <ul>
+                    <li><a href="MODULE 9/tutorial/rb_survey.html">Tutorial (Red Ball Survey)</a></li>
+                    <li><a href="MODULE 9/review/rb_build.html">Review (Red Ball Build)</a></li>
+                    <li><a href="MODULE 9/case1/cg_register.html">Case (Conference Register)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 9 Files</h2>
-        <ul>
-          <li><a href="tutorial09/tutorial/tny_clock.html">Tutorial</a></li>
-          <li><a href="tutorial09/review/tny_july.html">Review</a></li>
-          <li><a href="tutorial09/case/bc_union.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 10 -->
+            <section class="box">
+                <h2>Tutorial 10 Files</h2>
+                <ul>
+                    <li><a href="MODULE 10/tutorial/cp_royal.html">Tutorial (Cinema Penguin)</a></li>
+                    <li><a href="MODULE 10/review/cp_astaire.html">Review (Cinema Penguin - Astaire)</a></li>
+                    <li><a href="MODULE 10/case2/paa_game.html">Case (Pixal Arts Game)</a></li>
+                </ul>
+            </section>
 
-      <section class="box">
-        <h2>Tutorial 10 Files</h2>
-        <ul>
-          <li><a href="tutorial10/tutorial/lht_sept.html">Tutorial</a></li>
-          <li><a href="tutorial10/review/lht_events.html">Review</a></li>
-          <li><a href="tutorial10/case/vw_election.html">Case</a></li>
-        </ul>
-      </section>
+            <!-- Tutorial 11 -->
+            <section class="box">
+                <h2>Tutorial 11 Files</h2>
+                <ul>
+                    <li><a href="MODULE 11/tutorial/tny_clock.html">Tutorial (Tulsa NYE)</a></li>
+                    <li><a href="MODULE 11/review/tny_july.html">Review (Tulsa 4th July)</a></li>
+                    <li><a href="MODULE 11/case1/bc_union.html">Case (Bridger College)</a></li>
+                </ul>
+            </section>
 
-      <!-- Final Project -->
-      <section class="box">
-        <h2>Final Project</h2>
-        <ul>
-          <li>
-            <a href="https://dquint32.github.io/finalproject/" target="_blank" rel="noopener">Tienda Salvadorena</a>
-          </li>
-        </ul>
-      </section>
+            <!-- Tutorial 12 -->
+            <section class="box">
+                <h2>Tutorial 12 Files</h2>
+                <ul>
+                    <li><a href="MODULE 12/tutorial/Iht_sept.html">Tutorial (LHT Sept)</a></li>
+                    <li><a href="MODULE 12/review/Iht_events.html">Review (LHT Events)</a></li>
+                    <li><a href="MODULE 12/case2/vw_election.html">Case (Voter Web)</a></li>
+                </ul>
+            </section>
 
-      <section class="box citation-section">
-        <h2>Textbook Reference</h2>
-        <p>
-          Carey, Patrick M. <em>New Perspectives on HTML5 and CSS: Comprehensive</em>, 8th Edition. Cengage Learning, 2020.
-        </p>
-      </section>
-    </main>
+            <!-- Final Project -->
+            <section class="box">
+                <h2>Final Project</h2>
+                <ul>
+                    <li><a href="https://dquint32.github.io/finalproject/" target="_blank" rel="noopener noreferrer">Tienda Salvadorena</a></li>
+                </ul>
+            </section>
 
-    <footer class="box">
-      <p class="signature">Created by David Quintana</p>
-    </footer>
-  </div>
+            <!-- Textbook Citation -->
+            <section class="box citation-section">
+                <h2>Textbook Reference</h2>
+                <p>Carey, Patrick M. <em>New Perspectives on HTML5 and CSS: Comprehensive</em>, 8th Edition. Cengage Learning, 2020.</p>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="box">
+            <p class="signature">Created by David Quintana</p>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
 </body>
 </html>
