@@ -1,0 +1,91 @@
+/* pc_reset.css
+   Created by: David Quintana
+   Date: September 9, 2025
+*/
+
+/* Structural Styles */
+article, aside, figcaption, figure,
+footer, header, main, nav, section {
+  display: block;
+}
+
+/* Remove default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+dl, dd, ol, ul, figure {
+  margin: 0;
+  padding: 0;
+}
+
+/* Remove list styles */
+ul, ol {
+  list-style: none;
+}
+
+/* Remove link underlines in nav */
+nav a {
+  text-decoration: none;
+}
+
+/* Set basic font properties */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Remove border and outline from images and fieldsets */
+img, fieldset {
+  border: 0;
+  outline: none;
+}
+
+/* Normalize form elements */
+input, textarea, select, button {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+/* Remove quotes from blockquotes and q elements */
+blockquote, q {
+  quotes: none;
+}
+
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: '';
+  content: none;
+}
+
+/* Typographic Styles */
+address, article, aside, blockquote, body, cite,
+div, dl, dt, dd, em, figcaption, figure, footer,
+h1, h2, h3, h4, h5, h6, header, html, img,
+li, main, nav, ol, p, section, span, ul {
+  background: transparent;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  box-sizing: border-box;
+}
+
+/* Navigation List Reset */
+nav ul {
+  list-style: none;
+  list-style-image: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* Line Height Reset */
+body {
+  line-height: 1;
+}
